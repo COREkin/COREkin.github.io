@@ -5,21 +5,34 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Kin Board 개인정보처리방침 · プライバシーポリシー · Privacy Policy</title>
   <meta name="description" content="Kin Board Android 앱의 개인정보처리방침. Kin Board は個人情報を収集しません。Kin Board does not collect personal data.">
-  <link rel="icon" href="../icon.png" type="image/png">
-  <link rel="stylesheet" href="../../assets/style.css">
+  <link rel="canonical" href="https://corekin.github.io/kinboard/privacy/">
+  <link rel="icon" href="/kinboard/icon.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&amp;display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&amp;icon_names=cloud_done&amp;display=block">
+  <link rel="stylesheet" href="/assets/style.css">
 </head>
-<body>
-<main>
-  <div class="header">
-    <img src="../icon.png" alt="" width="64" height="64">
+<body id="top">
+<a class="skip-link" href="#main">Skip to content</a>
+<nav class="fixed-nav" aria-label="Main">
+  <div class="nav-container">
+    <a href="/" class="nav-brand"><span class="material-symbols-outlined" aria-hidden="true">cloud_done</span><span class="brand-name">DONGSIK KIM</span></a>
+  </div>
+</nav>
+
+<main id="main" class="policy">
+  <div class="container policy-container">
+  <div class="policy-header">
+    <img src="/kinboard/icon.png" alt="" width="64" height="64">
     <div>
-      <h1>Kin Board</h1>
-      <p class="muted">개인정보처리방침 · プライバシーポリシー · Privacy Policy</p>
+      <h1 class="policy-title">Kin Board</h1>
+      <p class="policy-subtitle">개인정보처리방침 · プライバシーポリシー · Privacy Policy</p>
     </div>
   </div>
 
   <nav aria-label="Language">
-    <ul class="lang-nav">
+    <ul class="policy-langs">
       <li><a href="#ko" lang="ko">한국어</a></li>
       <li><a href="#ja" lang="ja">日本語</a></li>
       <li><a href="#en" lang="en">English</a></li>
@@ -27,9 +40,9 @@
   </nav>
 
   <!-- 한국어 -->
-  <section id="ko" lang="ko" class="card" aria-labelledby="ko-title">
+  <section id="ko" lang="ko" class="card policy-card" aria-labelledby="ko-title">
     <h2 id="ko-title">개인정보처리방침</h2>
-    <p class="muted">시행일: 2026년 10월 19일</p>
+    <p class="policy-date">시행일: 2026년 10월 19일</p>
     <p>이 방침은 Android 앱 Kin Board(패키지명 <code>io.github.corekin.kinboard</code>)에 적용됩니다. 개발자는 김동식(Dongsik Kim)입니다.</p>
 
     <h3>수집하는 개인정보</h3>
@@ -70,9 +83,9 @@
   </section>
 
   <!-- 日本語 -->
-  <section id="ja" lang="ja" class="card" aria-labelledby="ja-title">
+  <section id="ja" lang="ja" class="card policy-card" aria-labelledby="ja-title">
     <h2 id="ja-title">プライバシーポリシー</h2>
-    <p class="muted">施行日：2026年10月19日</p>
+    <p class="policy-date">施行日：2026年10月19日</p>
     <p>本ポリシーは、Android アプリ Kin Board（パッケージ名 <code>io.github.corekin.kinboard</code>）に適用されます。開発者は金 棟植（Dongsik Kim）です。</p>
 
     <h3>収集する個人情報</h3>
@@ -113,9 +126,9 @@
   </section>
 
   <!-- English -->
-  <section id="en" lang="en" class="card" aria-labelledby="en-title">
+  <section id="en" lang="en" class="card policy-card" aria-labelledby="en-title">
     <h2 id="en-title">Privacy Policy</h2>
-    <p class="muted">Effective date: October 19, 2026</p>
+    <p class="policy-date">Effective date: October 19, 2026</p>
     <p>This policy applies to the Android app Kin Board (package name <code>io.github.corekin.kinboard</code>). The developer is Dongsik Kim.</p>
 
     <h3>Personal data we collect</h3>
@@ -155,9 +168,14 @@
     </ul>
   </section>
 
-  <footer>
-    <a href="../../">corekin.github.io</a>
-  </footer>
+  </div>
 </main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-brand"><span class="material-symbols-outlined" aria-hidden="true">cloud_done</span><a href="/" class="brand-name footer-home">DONGSIK KIM</a></div>
+    <p class="footer-copy">© 2026 Dongsik Kim. All rights reserved.</p>
+  </div>
+</footer>
 </body>
 </html>
